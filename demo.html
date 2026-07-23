@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Book a Demo - BotCipher</title>
+		<meta
+			name="description"
+			content="Schedule a demo to see how AI-powered lead response can help your home service business book more jobs"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="header">
+			<div class="container">
+				<a href="index.html" class="logo">
+					<img
+						src="2025042910495769.png"
+						alt="BotCipher Logo"
+						width="180"
+						height="40"
+					/>
+				</a>
+			</div>
+		</header>
+
+		<!-- Demo Section -->
+		<section class="demo-section">
+			<div class="container">
+				<h1 class="section-title">Book Your Demo</h1>
+				<p class="section-subtitle">
+					Schedule a 30-minute demo to see how AI-powered speed to lead and
+					follow-up can help your home service business book more jobs.
+				</p>
+
+				<div class="demo-content">
+					<!-- Demo Form -->
+					<div class="demo-form">
+						<form id="demoForm" method="POST">
+							<div class="form-group">
+								<label for="name"
+									>Full Name <span class="required">*</span></label
+								>
+								<input
+									type="text"
+									id="name"
+									name="name"
+									placeholder="John Doe"
+									required
+								/>
+							</div>
+
+							<div class="form-group">
+								<label for="email"
+									>Email Address <span class="required">*</span></label
+								>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									placeholder="john@example.com"
+									required
+								/>
+							</div>
+
+							<!-- <div class="form-group">
+								<label for="phone"
+									>Phone Number <span class="required">*</span></label
+								>
+								<input
+									type="tel"
+									id="phone"
+									name="phone"
+									placeholder="(555) 123-4567"
+									required
+								/>
+							</div>
+
+							<div class="form-group">
+								<label for="company"
+									>Company Name <span class="required">*</span></label
+								>
+								<input
+									type="text"
+									id="company"
+									name="company"
+									placeholder="Your Company Inc."
+									required
+								/>
+							</div>
+
+							<div class="form-row">
+								<div class="form-group">
+									<label for="date"
+										>Preferred Date <span class="required">*</span></label
+									>
+									<select id="date" name="date" required>
+										<option value="">Select date</option>
+										<option value="2025-05-01">May 1, 2025</option>
+										<option value="2025-05-02">May 2, 2025</option>
+										<option value="2025-05-03">May 3, 2025</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label for="time"
+										>Preferred Time <span class="required">*</span></label
+									>
+									<select id="time" name="time" required>
+										<option value="">Select time</option>
+										<option value="09:00">9:00 AM</option>
+										<option value="10:00">10:00 AM</option>
+										<option value="11:00">11:00 AM</option>
+										<option value="13:00">1:00 PM</option>
+										<option value="14:00">2:00 PM</option>
+										<option value="15:00">3:00 PM</option>
+									</select>
+								</div>
+							</div> -->
+
+							<div id="formMessage" class="form-message"></div>
+
+							<button type="submit" class="button button-primary button-full">
+								Schedule Demo
+							</button>
+						</form>
+					</div>
+
+					<!-- What to Expect -->
+					<div class="what-to-expect">
+						<div class="calendar-icon">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="32"
+								height="32"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+								<line x1="16" y1="2" x2="16" y2="6"></line>
+								<line x1="8" y1="2" x2="8" y2="6"></line>
+								<line x1="3" y1="10" x2="21" y2="10"></line>
+							</svg>
+						</div>
+						<h2>What to Expect</h2>
+
+						<div class="expect-items">
+							<div class="expect-item">
+								<h3>30-Minute Personalized Demo</h3>
+								<p>
+									We'll walk you through how BotCipher works for a home service
+									business like yours, with examples relevant to your trade.
+								</p>
+							</div>
+
+							<div class="expect-item">
+								<h3>Expert-Led Session</h3>
+								<p>
+									Your demo will be conducted by someone who understands home
+									service lead flow — calls, texts, and after-hours inquiries.
+								</p>
+							</div>
+
+							<div class="expect-item">
+								<h3>Q&A Opportunity</h3>
+								<p>
+									Bring your questions! We'll answer everything you need to know
+									about setup, integration, and what to expect week one.
+								</p>
+							</div>
+
+							<div class="expect-item">
+								<h3>Next Steps</h3>
+								<p>
+									We'll provide a clear roadmap for getting started, including
+									timeline and a custom quote based on your business.
+								</p>
+							</div>
+						</div>
+
+						<div class="testimonial-quote">
+							<p>
+								Pricing is custom based on your business and call volume — we'll
+								walk through what makes sense for you on the call.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-grid">
+					<!-- Column 1 - Logo and info -->
+					<div class="footer-column">
+						<div class="footer-logo">
+							<h3>Botcipher</h3>
+						</div>
+						<p>
+							Helping home service businesses respond faster, qualify leads,
+							and book more jobs with AI-powered automation.
+						</p>
+					</div>
+
+					<!-- Column 2 - Quick Links -->
+					<div class="footer-column">
+						<h3>Quick Links</h3>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html#features">Features</a></li>
+							<li><a href="index.html#how-it-works">How It Works</a></li>
+							<li><a href="index.html#results">Results</a></li>
+						</ul>
+					</div>
+
+					<!-- Column 3 - Get Started -->
+					<div class="footer-column">
+						<h3>Get Started</h3>
+						<ul>
+							<li><a href="demo.html">Book a Demo</a></li>
+						</ul>
+					</div>
+
+					<!-- Column 4 - Contact -->
+					<div class="footer-column">
+						<h3>Contact</h3>
+						<ul>
+							<li>nuel@botcipher.com</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<p>© 2026 BotCipher. All rights reserved.</p>
+					<div class="footer-links">
+						<a href="#privacy">Privacy Policy</a>
+						<a href="#terms">Terms of Service</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
